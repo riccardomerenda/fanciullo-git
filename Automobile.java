@@ -6,4 +6,9 @@ public class Automobile{
 	public Automobile(String targa){
 		this.targa = targa;
 	}
+
+	@Override
+	public String toString(){
+		return targa;
+	}
 }
