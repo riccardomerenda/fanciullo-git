@@ -9,6 +9,6 @@ public class Automobile{
 
 	@Override
 	public String toString(){
-		return targa;
+		return "Targa: " + targa;
 	}
 }
